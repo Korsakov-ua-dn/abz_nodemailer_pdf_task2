@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<title>Test2021_Oleg_K2_Task_2</title>
+<meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://unpkg.com/tachyons/css/tachyons.min.css">
+<link rel="icon" type="image/svg+xml" href="https://public/abz.svg">
+<link rel="stylesheet" href="style.css">
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;700&display=swap');
+
+    * {
+        box-sizing: border-box;
+    }
+
+    body {
+        background-color: #e4e4e4;
+        -webkit-text-size-adjust: 100%;
+        -ms-text-size-adjust: 100%;
+        margin: 0;
+        padding: 0;
+        line-height: 100%;
+        font-family: 'Source Sans Pro', arial, sans-serif;
+    }
+
+    img {
+        outline: none;
+        text-decoration: none;
+        border: none;
+        -ms-interpolation-mode: bicubic;
+        max-width: 100% !important;
+        margin: 0;
+        padding: 0;
+        display: block;
+    }
+
+    h1 {
+        font-size: 26px;
+    }
+
+    h1, h2, h3, a, p, button, span, img, td {
+        margin: 0;
+        font-family: 'Source Sans Pro', arial, sans-serif !important;
+        font-style: normal;
+        letter-spacing: normal;
+        line-height: normal;
+        color: #000000;
+        font-weight: 400;
+    }
+
+    table td {
+        border: 1px solid #000000;
+    }
+
+    table {
+        border-collapse: collapse;
+        mso-table-lspace: 0pt;
+        mso-table-rspace: 0pt;
+    }
+
+    .flex-b {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+    .flex-col {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .bold {
+        font-weight: 700;
+    }
+    .main {
+        width: 99.99%;
+        /*height: 929px;*/
+        background-color: #ffffff;
+        /*padding: 40px;*/
+    }
+    .logo {
+        width: 167px;
+    }
+
+    .title {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        padding: 30px 0 11px 3px;
+    }
+    .table {
+        /*width: 576px;*/
+        width: 100%;
+        height: 180px;
+        /*height: calc(180/929*100%);*/
+        margin: 7px 0 20px 0;
+    }
+    .table .table-header td {
+        font-weight: 700;
+    }
+    .table td {
+        font-size: 10px;
+        padding-left: 15px;
+    }
+    .number-td {
+        width: 6.5%;
+        height: calc(100%/6);
+    }
+    .name-td {
+        width: 60%;
+        height: calc(100%/6);
+    }
+    .price-td {
+        width: 10.5%;
+        height: calc(100%/6);
+    }
+    .quantity-td {
+        width: 11.5%;
+        height: calc(100%/6);
+    }
+    .amount-td {
+        width: 11.5%;
+        height: calc(100%/6);
+    }
+    
+    /*@page {*/
+    /*    margin: 0;*/
+    /*}*/
+
+</style>
+<body>
+
+<div class="main">
+
+    <div class="logo">
+        <a href="https://www.google.com.ua/">
+            <img src="https://abz-nextjs-task3.herokuapp.com/logoEmail.png" alt="Pupvote">
+        </a>
+    </div>
+
+    <div class="flex-b " style="padding: 36px 0 12px 0">
+        <span>Billing Information</span>
+        <span>Shipping Information</span>
+    </div>
+
+    <div class="flex-b ">
+        <p class="flex-col" style="min-height: 130px; text-align: left; font-size: 12px">
+            <span class="bold">Rocket Media Group</span>
+            <span>Bulgaria, 21B Moskova Street Sofia</span>
+            <span>75008 Sofia, Bulgaria</span>
+            <span> +1 415 555 1132</span>
+            <span>+1 302 555 1132</span>
+            <span>pupvote@gmail.com</span>
+            <span>pupvote.com</span>
+        </p>
+        <p class="flex-col" style="min-height: 72px; text-align: right; font-size: 12px">
+            <span class="bold">Tyler Durden</span>
+            <span>Bulgaria, 24A Moskova Street Sofia</span>
+            <span>email@gmail.com</span>
+            <span>+33 01 75 11 00 67</span>
+        </p>
+    </div>
+
+    <div class="title">
+        <span style="font-size: 16px; text-align: center">
+            Invoice #045334234551 <br>
+            From Friday, 15 January 2021
+        </span>
+    </div>
+
+    <span class="bold" style="font-size: 12px; font-weight: 700;">Vote for Pet</span>
+
+    <table class="table" cellpadding="0" cellspacing="0">
+        <tr class="table-header">
+            <td class="number-td">#</td>
+            <td class="name-td">Name</td>
+            <td class="price-td">Price</td>
+            <td class="quantity-td">Quantity</td>
+            <td class="amount-td">Amount</td>
+        </tr>
+        <tr>
+            <td class="number-td">1</td>
+            <td class="name-td">Acquiring 100 votes to vote for animals</td>
+            <td class="price-td">$1.99</td>
+            <td class="quantity-td">2</td>
+            <td class="amount-td">$3.98</td>
+        </tr>
+        <tr>
+            <td class="number-td">2</td>
+            <td class="name-td">Acquiring 300 votes to vote for animals</td>
+            <td class="price-td">$4.99</td>
+            <td class="quantity-td">1</td>
+            <td class="amount-td">$4.99</td>
+        </tr>
+        <tr>
+            <td class="number-td">3</td>
+            <td class="name-td">Acquiring 500 votes to vote for animals</td>
+            <td class="price-td">$5.49</td>
+            <td class="quantity-td">1</td>
+            <td class="amount-td">$5.49</td>
+        </tr>
+        <tr>
+            <td class="number-td">4</td>
+            <td class="name-td">Acquiring 1000 votes to vote for animals</td>
+            <td class="price-td">$9.99</td>
+            <td class="quantity-td">1</td>
+            <td class="amount-td">$9.99</td>
+        </tr>
+        <tr>
+            <td class="number-td">5</td>
+            <td class="name-td">Acquiring 2000 votes to vote for animals</td>
+            <td class="price-td">$18.99</td>
+            <td class="quantity-td">1</td>
+            <td class="amount-td">$18.99</td>
+        </tr>
+    </table>
+
+    <div class="flex-b ">
+        <p class="flex-col" style="min-width: 192px; min-height: 72px; text-align: left; font-size: 12px">
+            <span class="bold">Bank information</span>
+            <span>Credit Agricole Bank</span>
+            <span>IBAN: FR7630076021301193690023468</span>
+            <span>SWIFT / BIC:AGRICOLERPP</span>
+        </p>
+        <div class="flex-b" style="min-width: 112px;">
+            <p class="flex-col" style="min-width: 49px; min-height: 53px; text-align: right; font-size: 12px">
+                <span>Subtotal</span>
+                <span>Tax (10%)</span>
+                <span class="bold">Total</span>
+            </p>
+            <p class="flex-col" style="min-width: 36px; min-height: 53px; text-align: right; font-size: 12px">
+                <span>$43.44</span>
+                <span>$4.35</span>
+                <span class="bold">$47.79</span>
+            </p>
+        </div>
+    </div>
+
+</div>
+
+</body>
+</html>

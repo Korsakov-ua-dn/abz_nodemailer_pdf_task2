@@ -1,0 +1,10 @@
+body, html {padding: 0;margin: 0; height: 100%}
+body {
+    max-width: 656px;
+    /*min-width: 656px;*/
+    margin: 0 auto !important;
+}
+.main {
+    height: 929px;
+    padding: 40px;
+}

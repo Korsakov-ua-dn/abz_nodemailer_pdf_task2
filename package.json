@@ -1,0 +1,25 @@
+{
+  "name": "test2021_oleg_k2_task2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "PDF/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@bitbucket.org/Trainee_abz/test2021_oleg_k2_task2.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://bitbucket.org/Trainee_abz/test2021_oleg_k2_task2/issues"
+  },
+  "homepage": "https://bitbucket.org/Trainee_abz/test2021_oleg_k2_task2#readme",
+  "dependencies": {
+    "node-cron": "^3.0.0",
+    "nodemailer": "^6.7.2",
+    "puppeteer": "^13.0.1"
+  }
+}
